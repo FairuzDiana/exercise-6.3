@@ -11,6 +11,10 @@ int main()
 	cout << "please enter 2 integer: " << endl;
 	cin >> a >> b;
 	swap(a,b);
+	
+	cout << "a in main is : " << a << endl;
+	cout << "b in main is : " << b << endl;
+	
 	return 0;
 }
 
